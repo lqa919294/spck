@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(82, 76, 76, 0.674), rgba(82, 76, 76, 0.674)), url(https://ivyachievement.vn/wp-content/uploads/2020/11/7.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav img{
+    width: 100px;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.nav-links ul li a{
+    color: floralwhite;
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text-box{
+    width: 90%;
+    color: floralwhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+    font-family: 'EB Garamond', serif;
+}
+.text-box p{
+    font-size: 20px;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 30px;
+    }
+    .text-box p{
+        font-size: 15px;
+    }
+    }
+
+/* Get ready for school */
+
+.prep{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.titile2{
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+}
+.subtitile2{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'EB Garamond', serif;
+}
+.row{
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+}
+.prep-col{
+    flex-basis: 31%;
+    background-color: rgba(71, 69, 69, 0.068);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h2{
+    font-family:'EB Garamond', serif ;
+}
+.row .prep-col p{
+    font-family:'EB Garamond', serif ;
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+/* What to expect in a new school year? */
+.expect{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.title3{
+    font-size: 50px;
+    font-family:'EB Garamond', serif ;
+}
+.subtitle3{
+    font-size: 20px;
+    font-family:'EB Garamond', serif ;
+    padding: 10px;
+}
+.row .expect-col img{
+    width: 400px;
+    height: 300px;
+}
+.expect-col{
+    
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden; 
+    
+    
+}
+.layer{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background-color: rgba(197, 196, 196, 0.788);
+}
+h3{ 
+    color: red;
+    font-family: 'EB Garamond', serif ;
+}
+

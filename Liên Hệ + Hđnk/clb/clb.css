@@ -1,0 +1,175 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+#carouselExampleFade{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h2{
+    text-align: center;
+}
+#carouselExampleSlidesOnly{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.bd{
+    text-align: center;
+}
+
+
+
+
+
+/*-------------- header -------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(82, 76, 76, 0.674), rgba(82, 76, 76, 0.674)), url(https://ivyachievement.vn/wp-content/uploads/2020/11/7.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav img{
+    width: 200px;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+  
+
+}
+.nav-links ul li a{
+    color: floralwhite;
+    font-size: 13px;
+    font-family: 'EB Garamond', serif;
+}
+.text-box{
+    width: 90%;
+    color: floralwhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+
+
+
+
+/*---------------- MỤC TIÊU -----------------*/
+.goal{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.tieude2{
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+}
+.subtitle2{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+
+
+
+/*------------------ CÁC CLB TIÊU BIỂU ------------------*/
+.club-box{
+    padding-top: 70px;
+    font-family: 'EB Garamond', serif;
+}
+.club-box h1{
+    font-size: 50px;
+}
+.clbnhat{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 50px;
+}
+
+.bongro{
+    padding-top: 50px;
+}
+.bd{
+    padding-bottom: 50px;
+    
+}
+.br{
+    padding-bottom: 50px;
+}
+p{
+    font-size: 20px;
+}
+
+
+/* -------------------footer-----------------*/
+section .footer{
+    background: rgba(56, 56, 56, 0);
+  
+  }
+  .footer{
+    width: 100%;
+    
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: inset 0 0 0 2000px rgb(49 49 49 / 90%);
+    color:white;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+  }
+  
+  .footer h3{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  
+  .icon .fa-brands{
+    color: #f44336;
+    cursor: pointer;
+    text-align: center;
+    padding: 18px;
+    margin: 0 10px;
+  }
+  .fa-heart-o{
+    color: #f44336;
+  
+  } 

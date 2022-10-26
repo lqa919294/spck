@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* margin padding bằng 0 nghĩa là sẽ không có bất kỳ một khoảng cách nào được tạo ra so với lề của nội dung */
+/* padding là khoảng cách giữa viền với nội dung */
+/* margin là khoảng cách từ viền với bên ngoài */
+/* viết padding và margin: chiều kim đồng hồ (trên phải dưới trái) */
+.header{
+    min-height: 100vh;
+    /* min height là phần thừa ra trong một box và được dùng khi chiều cao của nội dung bé hơn min-height */
+    /* vh là chiều cao ứng với phần trăm của trang web vd: 100vh = 100% chiều cao khung nhìn  1vh= 1% chiều cao khung nhìn */
+    width: 100%;
+    background-image: linear-gradient(rgba(82, 76, 76, 0.674), rgba(82, 76, 76, 0.674)), url(https://ivyachievement.vn/wp-content/uploads/2020/11/7.jpg);
+    background-position: center;
+    background-size: cover;
+    /* dùng cover để tránh bị repeat  */
+  
+}
+nav img{
+    width: 200px;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    /* dùng để có thêm space giữa các div */
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+
+}
+.nav-links ul li a{
+    color: floralwhite;
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text-box{
+    width: 90%;
+    color: floralwhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* dóng theo trục tọa độ x=-50 và y=-50 */
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+    font-family: 'EB Garamond', serif;
+}
+.text-box p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Sẵn sàng cho năm học mới 2022-23 */
+
+.prep{
+    width: 80%;
+    margin: auto;
+    /* margin: auto để đặt phần content và box ở gi */
+    text-align: center;
+    padding-top: 100px;
+}
+.titile2{
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+}
+.subtitile2{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'EB Garamond', serif;
+}
+.row{
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+}
+.prep-col{
+    flex-basis: 31%;
+    /* chia tỉ lệ cột */
+    background-color: rgba(71, 69, 69, 0.068);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    /* box-sizing có 2 loại: border và content box */
+    /* border-box là kích thước hộp sẽ điều chỉnh theo padding border và chiều cao chiều rộng */
+}
+h2{
+    font-family:'EB Garamond', serif ;
+    text-align: center;
+}
+.row .prep-col p{
+    padding-top: 20px;
+    font-family:'EB Garamond', serif ;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Điều gì sẽ đón chờ trong năm học mới?? */
+.expect{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.title3{
+    font-size: 50px;
+    font-family:'EB Garamond', serif ;
+}
+.subtitle3{
+    font-size: 20px;
+    font-family:'EB Garamond', serif ;
+    padding: 10px;
+}
+.row .expect-col img{
+    width: 400px;
+    height: 300px;
+}
+.expect-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+   
+    overflow: hidden; 
+    /* bị tràn ra và được che đi */
+    
+}
+
+.tieude3{
+    font-family: 'EB Garamond', serif ;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* Lời nhắn nhủ từ giáo viên */
+.mess{
+    width:80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: 'EB Garamond', serif ;
+}
+.tieude4{
+    font-size: 50px;
+    
+}
+.subtitle4{
+    font-size: 20px;
+    
+}
+.mess-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    display: flex;
+}
+.mess-col h3{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.mess-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+    
+}
+
+
+
+/* -------------------footer-----------------*/
+section .footer{
+    background: rgba(56, 56, 56, 0);
+  
+  }
+  .footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: inset 0 0 0 2000px rgb(49 49 49 / 90%);
+    color:white;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+  }
+  
+  .footer h3{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  
+  .icon .fa-brands{
+    color: #f44336;
+    cursor: pointer;
+    text-align: center;
+    padding: 18px;
+    margin: 0 10px;
+  }
+  .fa-heart-o{
+    color: #f44336;
+  
+  } 
